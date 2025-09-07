@@ -52,8 +52,8 @@ npm install
 
 Create a .env file:
 
-DATABASE_URL="postgresql://<user>:<password>@<host>/<db>?sslmode=require"
-NEXTAUTH_SECRET="your-secret"
+DATABASE_URL="postgresql://<user>:<password>@<host>/<db>?sslmode=require" <br/>
+NEXTAUTH_SECRET="your-secret"<br/>
 NEXTAUTH_URL="http://localhost:3000"
 
 4. Setup Database
