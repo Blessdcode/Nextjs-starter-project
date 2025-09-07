@@ -66,11 +66,11 @@ npm run dev
 Visit → http://localhost:3000
 
 📂 Project Structure
-app/             → Next.js App Router pages
-components/      → UI and custom components
-lib/             → Prisma client, utils
-prisma/          → Prisma schema & migrations
-styles/          → Global styles
+app/             → Next.js App Router pages <br/>
+components/      → UI and custom components <br/>
+lib/             → Prisma client, utils <br/>
+prisma/          → Prisma schema & migrations <br/>
+styles/          → Global styles <br/>
 
 📂 Project Structure
 app/             → Next.js App Router pages
