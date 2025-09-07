@@ -72,6 +72,13 @@ lib/             → Prisma client, utils
 prisma/          → Prisma schema & migrations
 styles/          → Global styles
 
+📂 Project Structure
+app/             → Next.js App Router pages
+components/      → UI and custom components
+lib/             → Prisma client, utils
+prisma/          → Prisma schema & migrations
+styles/          → Global styles
+
 📦 Deployment
 
 Deploy easily with Vercel:
