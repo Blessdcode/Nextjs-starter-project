@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Next.js SaaS Starter
 
-## Getting Started
+A modern, production-ready starter template built with Next.js, Prisma, Neon Postgres, shadcn/ui, Zod, and React Hook Form.
 
-First, run the development server:
+Perfect for SaaS apps, dashboards, and full-stack projects.
 
-```bash
+✨ Features
+
+⚡ Next.js (App Router, TypeScript, TailwindCSS)
+
+🎨 Prebuilt UI components with shadcn/ui
+
+🔒 Authentication (NextAuth.js)
+
+🛠️ Form handling with React Hook Form + Zod
+
+🗄️ Database with Prisma + Neon Postgres
+
+📦 API routes with tRPC (optional)
+
+✅ ESLint + Prettier setup
+
+📱 Responsive & mobile-friendly
+
+🛠️ Tech Stack
+
+Framework: Next.js 14 (App Router)
+
+Database: Postgres (Neon)
+
+ORM: Prisma
+
+UI Library: shadcn/ui (Radix-based)
+
+Forms: React Hook Form + Zod
+
+Auth: NextAuth.js
+
+Styling: TailwindCSS
+
+Icons: Lucide-react
+
+🚀 Getting Started
+1. Clone the repo
+git clone https://github.com/<your-username>/nextjs-starter.git
+cd nextjs-starter
+
+2. Install dependencies
+npm install
+
+3. Setup Environment Variables
+
+Create a .env file:
+
+DATABASE_URL="postgresql://<user>:<password>@<host>/<db>?sslmode=require"
+NEXTAUTH_SECRET="your-secret"
+NEXTAUTH_URL="http://localhost:3000"
+
+4. Setup Database
+npx prisma db push
+
+5. Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit → http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Project Structure
+app/             → Next.js App Router pages
+components/      → UI and custom components
+lib/             → Prisma client, utils
+prisma/          → Prisma schema & migrations
+styles/          → Global styles
 
-## Learn More
+📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deploy easily with Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Push to GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Import repo into Vercel
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Set environment variables
