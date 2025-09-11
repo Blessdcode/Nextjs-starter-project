@@ -1,4 +1,4 @@
-🚀 Next.js SaaS Starter
+🚀 Next.js SaaS Starter App
 
 A modern, production-ready starter template built with Next.js, Prisma, Neon Postgres, shadcn/ui, Zod, and React Hook Form.
 
