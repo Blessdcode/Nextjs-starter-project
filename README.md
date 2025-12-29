@@ -10,7 +10,7 @@ Perfect for SaaS apps, dashboards, and full-stack projects.
 
 🎨 Prebuilt UI components with shadcn/ui
 
-🔒 Authentication (NextAuth.js)
+🔒 Authentication (Better Auth)
 
 🛠️ Form handling with React Hook Form + Zod
 
@@ -34,7 +34,7 @@ UI Library: shadcn/ui (Radix-based)
 
 Forms: React Hook Form + Zod
 
-Auth: NextAuth.js
+Auth: Better Auth
 
 Styling: TailwindCSS
 
